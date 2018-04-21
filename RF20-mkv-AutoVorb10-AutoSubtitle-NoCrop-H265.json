@@ -1,6 +1,7 @@
 {
     "PresetList": [
         {
+            "AlignAVStart": false,
             "AudioCopyMask": [
                 "copy:mp3",
                 "copy:aac",
@@ -38,6 +39,7 @@
             "FileFormat": "av_mkv",
             "Folder": false,
             "FolderOpen": false,
+            "InlineParameterSets": false,
             "Mp4HttpOptimize": true,
             "Mp4iPodCompatible": false,
             "PictureAutoCrop": false,
@@ -69,6 +71,10 @@
             "PicturePARWidth": 1,
             "PictureRightCrop": 0,
             "PictureRotate": "disable=1",
+            "PictureSharpenCustom": "",
+            "PictureSharpenFilter": "off",
+            "PictureSharpenPreset": "medium",
+            "PictureSharpenTune": "none",
             "PictureTopCrop": 0,
             "PictureWidth": 0,
             "PresetDescription": "Legacy HandBrake 0.10.x H.264 Main Profile preset.",
@@ -108,7 +114,7 @@
             "x264UseAdvancedOptions": false
         }
     ],
-    "VersionMajor": 23,
+    "VersionMajor": 32,
     "VersionMicro": 0,
     "VersionMinor": 0
 }
